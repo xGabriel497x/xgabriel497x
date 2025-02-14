@@ -37,20 +37,23 @@ body {
     border-radius: 5px;
 }
 .message {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-size: 22px;
-    color: #ff4081;
-    max-width: 80%;
-}
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-size: 22px;
+            color: #ff4081;
+            max-width: 95%;
+            width: 300px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
 .close-btn {
     margin-top: 10px;
     padding: 5px 10px;

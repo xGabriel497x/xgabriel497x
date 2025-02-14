@@ -8,10 +8,15 @@
     <link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 <body>
-    <div class="card" onclick="showMessage()">💌 ¡Pulsa para abrir tu carta! 💌</div>
+    <div class="card" onclick="showMessage(); showHearts()">
+        💌 ¡Pulsa para abrir tu carta! 💌
+        <div class="corner-top"></div>
+        <div class="corner-bottom"></div>
+    </div>
     <div class="message" id="messageBox">
         <p id="messageText">Holas mi Asti linda, de verdad creías que no iba a hacer nada por ti en este día? Ush, así piensas😒, Jsjsjs, ntc. Realmente si que me hacía ilusión hacer algo por ti aunque sea algo pequeñito por ti en este día especial. No sabes las ganas que tengo de estar contigo en México y pasar muchos momentos increíbles, y créeme que me hubiera encantado invitarte hoy a pasar un día increíble, pero lo único que puedo hacer es entregarte esta carta en la que expreso mis sentimientos y lo que siento por ti. De verdad muchas gracias por llegar a mi vida y a pesar de que peleamos a veces, no sabes lo feliz que me siento de haber conocido a una personita tan increíble como tu y que yo sé que también me tiene cierto aprecio. Me faltan palabras para expresar todo lo que siento por ti, y me da mucha pena no pasar este 14 de Febrero al lado tuyo, pero espero que la pases muy bonito y hagas algo que realmente te guste y disfrutes de este día (porque linda estás tu). Muchas gracias por estar en mi vida y te quiero con todo mi corazón Asti, Te amo. ❤️</p>
         <button class="close-btn" onclick="closeMessage()">Cerrar</button>
+        <button class="dedicate-btn" onclick="dedicateSong()">Esta te la dedico &lt;3</button>
     </div>
     <footer>
         <p>Creado con 💕 por Gabriel &lt;3 Te quiero mi Asti</p>
@@ -19,3 +24,5 @@
     <script src="sanvalentin.js"></script>
 </body>
 </html>
+
+

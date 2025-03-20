@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para la mas linda💕</title>
-    <link rel="stylesheet" href="sanvalentin.css">
+    <title>Flores Amarillas para mi Amor</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 <body>
-    <div class="card" onclick="showMessage(); showHearts()">
-        💌 ¡Pulsa para abrir tu carta! 💌
-        <div class="corner-top"></div>
-        <div class="corner-bottom"></div>
+    <div class="container">
+        <h1>🌻 Para mi Asti Linda 💕 🌻</h1>
+        <p>Quisiera darte flores amarillas en persona, pero mientras tanto, aquí tienes un pequeño detalle especial. Espero que te guste amor. 💛</p> <br />
+        <p>Psdt: Para la historia ve pulsando el botón de "Ver que pasará" para que se vaya actualizando😉</p>
+        
+        <div class="flowers">
+            <img src="flores.jpeg" alt="Flores Amarillas">
+        </div>
+        
+        <button id="popupBtn">🌟 Púlsame 🌟</button>
+        
+        <div id="popup" class="popup hidden">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <p id="popupMessage" class="scrollable">Holass amorr, como estás? Bueno, te escribo este mensaje para comentarte un poco como va todo y abrir de nuevo mi corazón hacia ti. Te voy a ser sincero, no sé si se entregan flores amarillas hoy o en Septiembre, pero mejor prevenir que lamentar, y espero que esta página te esté gustando. Realmente eres una persona super importante para mi, ya que sobre todo hace poco te has vuelto mi novia, aunque todavía falta que yo te pida de una manera bonita y creativa en persona &lpar;Que créeme lo haré de una manera muy bonita y que te hará muy feliz&rpar; pero hasta entonces me encanta poder decirte cosas como "Mi Vida" o "Amor", créeme que para un chico decirle así a la chica de sus sueños es literalmente la vida resuelta. Sé que falta mucho tiempo hasta Septiembre u Octubre para poder ir a verte, y todavía pueden pasar muchas cosas, y sé que puede ser que a lo mejor no sea el mejor chico que hayas conocido en tu vida, pero si tengo algo claro, soy y seré el mejor programador que nunca habrás conocido😜. Ahora volviendo al tema, muchas gracias mi Asti por estar en mi vida y por acompañarme durante muchos momentos, sé que a veces me equivoco y a veces puedo llegar a hacerte sentir un poco mal pero créeme que nada de esto es intencional y siempre estoy buscando dar lo mejor de mi y dar mi mejor imagen para ti y poder ser el chico que siempre has querido o por lo menos acercarme a este. Estoy seguro que cuando vaya todo será mucho mejor y que podremos vivir muchas experiencias inolvidables, pero hasta entonces te regalo esta página como muestra de mi cariño y aprecio hacia ti. Te amo mi vida linda preciosa bella💕. Gracias por estar conmigo❤️ Ahora ve a la historia que sigue abajo de esto.</p>
+            </div>
+        </div>
+        
+        <div id="story">
+            <h2>✨ Una Historia Divertida ✨</h2>
+            <p>Asti se encontraba en un campo de flores amarillas, alejada de toooda la sociedad y viviendo una vida en paz...</p>
+            <button id="storyButton" onclick="nextPart()">Ver qué pasa😮</button>
+            <p id="storyText"></p>
+        </div>
+        
+        <div id="countdown">
+            <h2>⏳ Cuenta regresiva hasta el 1 de octubre ⏳</h2>
+            <p id="timeLeft"></p>
+        </div>
+        
+        <canvas id="starCanvas"></canvas>
     </div>
-    <div class="message" id="messageBox">
-        <p id="messageText">Holas mi Asti linda, de verdad creías que no iba a hacer nada por ti en este día? Ush, así piensas😒, Jsjsjs, ntc. Realmente si que me hacía ilusión hacer algo por ti aunque sea algo pequeñito por ti en este día especial. No sabes las ganas que tengo de estar contigo en México y pasar muchos momentos increíbles, y créeme que me hubiera encantado invitarte hoy a pasar un día increíble, pero lo único que puedo hacer es entregarte esta carta en la que expreso mis sentimientos y lo que siento por ti. De verdad muchas gracias por llegar a mi vida y a pesar de que peleamos a veces, no sabes lo feliz que me siento de haber conocido a una personita tan increíble como tu y que yo sé que también me tiene cierto aprecio. Me faltan palabras para expresar todo lo que siento por ti, y me da mucha pena no pasar este 14 de Febrero al lado tuyo, pero espero que la pases muy bonito y hagas algo que realmente te guste y disfrutes de este día (porque linda estás tu). Muchas gracias por estar en mi vida y te quiero con todo mi corazón Asti, Te amo. ❤️</p>
-        <button class="close-btn" onclick="closeMessage()">Cerrar</button>
-        <button class="dedicate-btn" onclick="dedicateSong()">Esta te la dedico &lt;3</button>
-    </div>
-    <footer>
-        <p>Creado con 💕 por Gabriel &lt;3 Te quiero mi Asti</p>
-    </footer>
-    <script src="sanvalentin.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-

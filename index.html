@@ -1,45 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flores Amarillas para mi Amor</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/ico" href="favicon.ico">
-</head>
-<body>
-    <div class="container">
-        <h1>🌻 Para mi Asti Linda 💕 🌻</h1>
-        <p>Quisiera darte flores amarillas en persona, pero mientras tanto, aquí tienes un pequeño detalle especial. Espero que te guste amor. 💛</p> <br />
-        <p>Psdt: Para la historia ve pulsando el botón de "Ver que pasará" para que se vaya actualizando😉</p>
-        
-        <div class="flowers">
-            <img src="flores.jpeg" alt="Flores Amarillas">
-        </div>
-        
-        <button id="popupBtn">🌟 Púlsame 🌟</button>
-        
-        <div id="popup" class="popup hidden">
-            <div class="popup-content">
-                <span class="close" onclick="closePopup()">&times;</span>
-                <p id="popupMessage" class="scrollable">Holass amorr, como estás? Bueno, te escribo este mensaje para comentarte un poco como va todo y abrir de nuevo mi corazón hacia ti. Te voy a ser sincero, no sé si se entregan flores amarillas hoy o en Septiembre, pero mejor prevenir que lamentar, y espero que esta página te esté gustando. Realmente eres una persona super importante para mi, ya que sobre todo hace poco te has vuelto mi novia, aunque todavía falta que yo te pida de una manera bonita y creativa en persona &lpar;Que créeme lo haré de una manera muy bonita y que te hará muy feliz&rpar; pero hasta entonces me encanta poder decirte cosas como "Mi Vida" o "Amor", créeme que para un chico decirle así a la chica de sus sueños es literalmente la vida resuelta. Sé que falta mucho tiempo hasta Septiembre u Octubre para poder ir a verte, y todavía pueden pasar muchas cosas, y sé que puede ser que a lo mejor no sea el mejor chico que hayas conocido en tu vida, pero si tengo algo claro, soy y seré el mejor programador que nunca habrás conocido😜. Ahora volviendo al tema, muchas gracias mi Asti por estar en mi vida y por acompañarme durante muchos momentos, sé que a veces me equivoco y a veces puedo llegar a hacerte sentir un poco mal pero créeme que nada de esto es intencional y siempre estoy buscando dar lo mejor de mi y dar mi mejor imagen para ti y poder ser el chico que siempre has querido o por lo menos acercarme a este. Estoy seguro que cuando vaya todo será mucho mejor y que podremos vivir muchas experiencias inolvidables, pero hasta entonces te regalo esta página como muestra de mi cariño y aprecio hacia ti. Te amo mi vida linda preciosa bella💕. Gracias por estar conmigo❤️ Ahora ve a la historia que sigue abajo de esto.</p>
-            </div>
-        </div>
-        
-        <div id="story">
-            <h2>✨ Una Historia Divertida ✨</h2>
-            <p>Asti se encontraba en un campo de flores amarillas, alejada de toooda la sociedad y viviendo una vida en paz...</p>
-            <button id="storyButton" onclick="nextPart()">Ver qué pasa😮</button>
-            <p id="storyText"></p>
-        </div>
-        
-        <div id="countdown">
-            <h2>⏳ Cuenta regresiva hasta el 1 de octubre ⏳</h2>
-            <p id="timeLeft"></p>
-        </div>
-        
-        <canvas id="starCanvas"></canvas>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz cumpleaños mi amor❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>
+        A la mejor chica que he conocido en mi vida y que me hace saltar de la alegría cada
+        vez que me manda un mensaje💕💕Te adoro
+      </h1>
+    </section>
+    
+    <!-- Photo placeholder -->
+    <div class="photo-wrapper">
+      <img src="astilinda.png" alt="Astrid" />
     </div>
+
+
+    <!-- Enamor Section -->
+    <section id="enamor">
+      <h2>Cosas que me enamoran de ti</h2>
+
+      <div class="enamor-grid">
+        <div class="item" data-index="1">
+          💕
+          <p>Cuando me mandas y me dices que soy únicamente tuyo.</p>
+          <p>(Pues obvio preciosa, tengo dueña y se llama Astrid🤪)</p>
+        </div>
+
+        <div class="item" data-index="2"> 
+          💫
+          <p>Lo inteligente que eres.</p>
+          <p>(Tengo a la futura licenciada más inteligente del mundo a mi lado🤪)</p>
+        </div>
+
+        <div class="item" data-index="3">
+          😮
+          <p>Tu tierna voz.</p>
+          <p>(Tu si háblame todo lo que quieras que me encanta🤪)</p>
+        </div>
+
+        <div class="item" data-index="4">
+          🔥
+          <p>Tu divino cuerpo y brillantes ojitos.</p>
+          <p>(No hace falta añadir nada más, cada curva y cada milímetro de tu cuerpo GPIIIIIIII(Que rica estás🤪))</p>
+        </div>
+
+        <div class="item" data-index="5">
+          🌸
+          <p>Tu increíble personalidad.</p>
+          <p>(Tienes la combinación perfecta entre seria, tierna, enojona, y amorosa🤪)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Farewell Section -->
+    <section id="farewell">
+      <h2>Promesa</h2>
+
+      <p class="farewell-text">
+        Feliz cumpleaños mi vida preciosa, prometo hacerte la mujer más feliz del mundo en
+        exactamente 73 días cuando por fin vaya y tenga la posibilidad de apreciarte en persona.
+        Prometo cuidarte, escucharte y ser parte de los días que quieras recordar con una sonrisa.
+        ❤️
+      </p>
+
+      <div class="vale">
+        🎟️ Este vale te da derecho a: Pedirme LO QUE QUIERAS cuando vaya a México.
+        Desde lanzarnos desde un acantilado, a comer limón con limón. (A lo mejor chuparte una chichi🤪)
+        LO QUE SEA.
+        (lo juro).
+      </div>
+
+      <button class="message-btn" id="open-modal">Ver mensaje especial</button>
+    </section>
+
+    <!-- Modal -->
+    <div id="message-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <p id="message-placeholder">
+          Holas mi amorrr, FELIZ CUMPLEAÑOOOOOOOOOOS, de verdad que eres una mujer espectacular y que estoy genuinamente
+           muy feliz de tener en mi vida, parece una broma que ya haya pasado un año y medio desde que nos conocimos en 
+           Project Z y que desde entonces te hayas vuelto en una persona SUPER importante en mi vida, y de la que si no 
+           sé algo un día ya me preocupo, me faltan las palabras para seguir describiendo todo lo que siento por ti, pero 
+           sabes que? Te lo voy a decir... ah, que quieres saberlo? Entonces juguemos🤪. En esta página entera hay un secreto
+           el cual desbloqueará la siguiente parte de este gran mensaje que te he preparado, ya es tu tarea encontrarla, está en 
+           alguna parte de la página. Suerte mi amorrr, Te amo.❤️ Pista: ¿Sabes? Yo creo que siempre lo principal que te 
+           destaco es tu forma de ser, también lo lista que eres, la increíble voz que tienes, tu increíble cuerpo, y el 
+           como te portas conmigo, que lo valoro mucho. Es que a mi el ORDEN me gusta mucho.
+        </p>
+      </div>
+    </div>
+
+      <!-- — — — MODAL SECRETO (SE ABRE CUANDO ACERTIJA = OK) — — — -->
+    <div id="secret-modal" class="modal">
+      <div class="modal-content">
+        <span id="secret-close" class="close">&times;</span>
+        <p>
+          💚 ¡Felicidades, mi vidaaaa! Lograste descubrir el orden correcto,
+          no te digo que eres demasiado inteligente?? Jsjsjs, bueno a lo que vamos,
+          para ver la siguiente parte del mensaje mándame exactamente un "LO ENCONTRÉ NACO, QUIERO LO SIGUIENTE❤️"
+          al insta y te la mandaré, Te Amo.❤️
+        </p>
+      </div>
+    </div>
+
+      <p class="firma">— Tu Gabrielito💕</p>
+    </section>
+
+    <footer id="love-footer">
+      <p>Hecho con cariño en línea, porque mi amor hacia ti es una variable constante que no cambiará nunca ✨</p>
+    </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

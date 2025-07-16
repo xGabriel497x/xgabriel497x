@@ -152,6 +152,8 @@ h2 { font-size: 1.4rem; }
   border-radius: 20px;
   width: 100%;
   max-width: 500px;
+  max-height: 80vh;      /* scroll area height */
+  overflow-y: auto;       /* enable scroll */
   text-align: center;
   position: relative;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
